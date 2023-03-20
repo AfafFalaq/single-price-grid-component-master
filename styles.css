@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Semi+Condensed:wght@500;600&family=Big+Shoulders+Display:wght@700&family=Inter:wght@400;700;800&family=Karla:wght@400;700&family=League+Spartan:wght@400;500;700&family=Lexend+Deca&family=Outfit:wght@300;400;600&display=swap');
+body{
+    background-color: hsl(204, 43%, 93%) ;
+    font-family: "Karla",sans-serif;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+
+}
+main{
+    display: grid;
+    grid-template-columns:300px 300px ;
+    grid-template-rows: 190px 240px;
+    overflow: hidden;
+    border-radius: 8px;
+}
+ .box1{
+    background-color: white;
+    grid-column: 1/3;
+    grid-row: 1/2;
+    padding: 25px;
+
+}
+ .box2{
+    background-color:hsl(179, 62%, 43%);
+    grid-column: 1/2;
+    grid-row: 2/3;
+    padding: 25px;
+    color:white;
+
+}
+.box3{
+    background-color:hsl(179, 52%, 51%);
+    grid-column: 2/3;
+    grid-row: 2/3;
+    padding: 25px;
+    color: white;
+
+}  
+h3{
+   color:hsl(179, 62%, 43%);
+}
+.b1{
+    color:hsl(71, 73%, 54%);
+}
+.text1{
+    color: gray;
+}
+.text2{
+    font-size: 14px;
+}
+.price{
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+span{
+    font-size: 13px;
+    color:hsl(179, 55%, 73%);
+    padding-left: 9px;
+}
+button{
+    height:45px;
+    width:240px;
+    background-color:hsl(71, 73%, 54%) ;
+    border: none;
+    color:white;
+    border-radius: 5px;
+    font-weight: 700;
+}
+.text3{
+    font-size: 13px;
+    color: hsl(179, 55%, 81%);
+
+}
